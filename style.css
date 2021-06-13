@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+.blur{
+    filter: blur(2px);
+}
+.brightness{
+    filter: brightness(150%);
+}
+.contrast{
+    filter: contrast(150%);
+}
+.drop-shadow{
+    filter: drop-shadow(20px 20px 20px rgb(116,116,116));
+}
+.grayscale{
+    filter: grayscale(60%);
+}
+.hue-rotate{
+    filter: hue-rotate(60deg);
+}
+.invert{
+    filter: invert(1);
+}
+.opacity{
+    filter: opacity(0.5);
+}
+.saturate{
+    filter: saturate(6);
+}
+.sepia{
+    filter: sepia(80%);
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    margin: 35px;
+}
+button{
+    margin: 20px;
+}
+h1{
+    font-size: 5rem;
+    margin: 35px;
+}
